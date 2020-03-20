@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f3f5f7;
+}
+
+header {
+	background-color: #ffffff;
+	height: 75px;
+	box-shadow: 1px 5px 8px #acb9cc;
+}
+
+.container-header {
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#menu-icon {
+	float: left;
+	font-family: Axiforma, sans-serif;
+	font-size: 28;
+	color: #4b4b4b;
+}
+
+#items-right {
+	float: right;
+}
+
+#items-right img {
+	margin: 0 15px 0 0;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+}
+
+#menu {
+	float: left;
+	background-color: #ffffff;
+	margin: 20px 0 20px 20px;
+	border-radius: 8px;
+	min-height: 550px;
+	width: 70px;
+	box-shadow: 1px 5px 8px #acb9cc;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#menu-a {
+	text-decoration: none;
+	padding: 10px 6px;
+}
+
+#menu-div {
+	margin: 30px 5px 0 5px;
+}
+
+#menu-settings {
+	margin: 0 5px 0 5px;
+	text-decoration: none;
+}
+
+#a-settings {
+	padding: 10px 10px;
+	margin-top: 180px;
+}
+
+#menu a:hover {
+	background-color: #f3f5f7;
+}
+
+#menu a.active {
+	background-color: #f3f5f7;
+	color: blue;
+}
+#content {
+	float: right;
+	margin: 40px 20px 0 0;
+	width: 80%;
+	height: 95%;
+}
+
+#content table {
+	background-color: #ffffff;
+	box-shadow: 1px 5px 8px #d3ddea;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+.div-title {
+	font-family: Nunito sans;
+	font-size: 24px;
+	margin: 0 0 20px 0;
+	color: #63799b;
+}
+
+.div-table {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.div-table-line {
+	font-family: Nunito sans;
+	font-size: 16px;
+	color: #63799b;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+th {
+	font-family: Nunito sans;
+	font-size: 16px;
+	color: #63799b;
+	text-align: left;
+	border-bottom: 1px solid #d3ddea;
+	margin: 0 5px 0 5px;
+	padding: 8px;
+}
+
+td {
+	text-align: left;
+	padding: 8px;
+	border-bottom: 1px solid #d3ddea;
+	margin: 0 5px 0 5px;
+}
+
+#externa {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#interna {
+	background-color: #f3f5f7;
+	width: 400px;
+	border-radius: 20px;
+}
+
+#interna input {
+	height: 40px;
+	width: 300px;
+	border: 0 none;
+	background-color: #f3f5f7;
+	font-family: Nunito Sans;
+	font-size: 18;
+}
+
+#interna img {
+	margin: 10px 0 0 10px;
+}
